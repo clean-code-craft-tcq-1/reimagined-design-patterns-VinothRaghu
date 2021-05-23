@@ -82,3 +82,37 @@ decorator object is to extend the functionality of same object
 - Difficult to understand the existing functionality, if we extend the same
 
 
+
+
+
+# Prototype Design Pattern
+
+In a vehicle if you want to create similar type of ECU with same properties and operations but if you have less time to design so you can close existing node and you can change small properties if required after cloning
+
+Example in a vehcile ABS and ESP will do similar braking feature but ESP provides additional braking features compare to ABS,so if you want to do ESP prototype for customer order acuqisition we can clone ABS existing node instead of definining individual functionality newly for giving prototype.
+
+**Definition:**
+When creating an object is time consuming and a costly affair and you already have a most similar object instance in hand, then you go for prototype pattern. Instead of going through a time consuming process to create a complex object, just copy the existing similar object and modify it according to your needs. Clone the existing instance in hand and then make the required update to the cloned instance so that you will get the object you need. Other way is, tweak the cloning method itself to suit your new object creation need.
+Intent
+Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
+
+**Advantages of using Prototype Model :**
+1)This model is flexible in design.
+2)It is easy to detect errors.
+3)We can find missing functionality easily.
+4)There is scope of refinement, it means new requirements can be easily accommodated.
+5)It can be reused by the developer for more complicated projects in the future.
+6)It ensures a greater level of customer satisfaction and comfort.
+7)It is ideal for online system.
+8)It helps developers and users both understand the system better.
+9)Integration requirements are very well understood and deployment channels are decided at a very early stage.
+10)It can actively involve users in the development phase.
+
+**Disadvantages of using Prototype Model :**
+1)This model is costly.
+2)It has poor documentation because of continuously changing customer requirements.
+3)There may be too much variation in requirements.
+4)Customers sometimes demand the actual product to be delivered soon after seeing an early prototype.
+5)There may be sub-optimal solutions because of developers in a hurry to build prototypes.
+6)Customers may not be satisfied or interested in the product after seeing the initial prototype.
+7)There is certainty in determining the number of iterations. 
